@@ -1,0 +1,12 @@
+name: pyGRN
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - keras=2.2.4
+  - tqdm
+  - pip:
+      - "."
+
